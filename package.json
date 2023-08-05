@@ -1,0 +1,18 @@
+{
+  "name": "git-scribe",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "prettier --check '{*,**/*}.{js,json}' && eslint .",
+    "lint:fix": "prettier --write '{*,**/*}.{js,json}' && eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matias Olivera <moliverafreire@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.0.1"
+  }
+}
