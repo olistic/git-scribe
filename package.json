@@ -29,6 +29,7 @@
     "prettier": "3.0.1"
   },
   "dependencies": {
+    "execa": "^7.2.0",
     "git-credential-node": "^1.1.0",
     "inquirer": "^9.2.10",
     "node-fetch": "^3.3.2"
