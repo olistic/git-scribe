@@ -19,6 +19,10 @@
   ],
   "author": "Matias Olivera <moliverafreire@gmail.com>",
   "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",

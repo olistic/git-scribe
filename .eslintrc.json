@@ -4,6 +4,9 @@
     "node": true
   },
   "extends": ["eslint:recommended", "prettier"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "rules": {
     "no-console": "off"
   }

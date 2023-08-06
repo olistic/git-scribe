@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const prepareCommitMessage = require('../lib/');
+import { prepareCommitMessage } from '../lib/index.js';
 
 prepareCommitMessage(process.argv[2], process.argv[3]);
