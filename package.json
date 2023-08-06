@@ -2,6 +2,9 @@
   "name": "git-scribe",
   "version": "0.0.0",
   "description": "",
+  "bin": {
+    "git-scribe": "./bin/git-scribe.js"
+  },
   "scripts": {
     "lint": "prettier --check '{*,**/*}.{js,json}' && eslint .",
     "lint:fix": "prettier --write '{*,**/*}.{js,json}' && eslint --fix .",
