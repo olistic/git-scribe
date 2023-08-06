@@ -1,7 +1,7 @@
 {
   "name": "git-scribe",
   "version": "0.0.0",
-  "description": "",
+  "description": "AI copilot for crafting insightful Git commit messages",
   "bin": {
     "git-scribe": "./bin/git-scribe.js"
   },
@@ -10,7 +10,13 @@
     "lint:fix": "prettier --write '{*,**/*}.{js,json}' && eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "ai",
+    "copilot",
+    "git",
+    "commit",
+    "hook"
+  ],
   "author": "Matias Olivera <moliverafreire@gmail.com>",
   "license": "MIT",
   "devDependencies": {
