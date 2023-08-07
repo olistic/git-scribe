@@ -1,7 +1,7 @@
 # git-scribe
 
 <div align="center">
-  <img alt="Git Scribe illustration" title="Git Scribe" src="hero.png?raw=true" />
+  <img alt="Git Scribe illustration" title="Git Scribe" src="hero.webp?raw=true" />
 </div>
 
 <br />
