@@ -1,6 +1,6 @@
 {
   "name": "git-scribe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "AI copilot for crafting insightful Git commit messages",
   "bin": {
     "git-scribe": "./bin/git-scribe.js"
@@ -19,6 +19,10 @@
   ],
   "author": "Matias Olivera <moliverafreire@gmail.com>",
   "license": "MIT",
+  "files": [
+    "bin",
+    "lib"
+  ],
   "type": "module",
   "engines": {
     "node": ">=16"
