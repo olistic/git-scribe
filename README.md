@@ -1,5 +1,11 @@
 # git-scribe
 
+<div align="center">
+  <img alt="Git Scribe illustration" title="Git Scribe" src="hero.png?raw=true" />
+</div>
+
+<br />
+
 Git Scribe is your AI copilot for crafting insightful Git commit messages, streamlining your development process by translating code diffs into concise narratives.
 
 ## Installation
