@@ -8,13 +8,19 @@
 
 <div align="center">
   <a href="https://www.npmjs.com/package/git-scribe">
-    <img alt="npm" src="https://img.shields.io/npm/v/git-scribe?style=flat-square&color=%23a78bfa">
+    <img alt="npm" src="https://img.shields.io/npm/v/git-scribe?style=flat-square&color=%23a371f7">
   </a>
 </div>
 
 <br />
 
 Git Scribe is your AI copilot for crafting insightful Git commit messages, streamlining your development process by translating code diffs into concise narratives.
+
+## How it works
+
+Git Scribe adds a [`prepare-commit-msg`](https://git-scm.com/docs/githooks#_prepare_commit_msg) hook to your Git repository upon [installation](#installation).
+
+Whenever you need inspiration, simply execute `git commit` without passing a message and Git Scribe will give you a suggestion.
 
 > [!IMPORTANT]
 > Git Scribe uses OpenAI API behind the scenes. If you have any concerns, you can review OpenAI's API data privacy policies [here](https://openai.com/api-data-privacy).
@@ -38,7 +44,3 @@ $ npx husky install
 ```sh
 $ npx husky add .husky/prepare-commit-msg 'git-scribe "$1" "$2"'
 ```
-
-## Usage
-
-Simply execute `git commit` without passing a message and Git Scribe will do the rest. You will have the chance to review the generated message before committing.
