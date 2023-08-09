@@ -1,7 +1,13 @@
-# git-scribe
+# Git Scribe
 
 <div align="center">
-  <img alt="Git Scribe illustration" title="Git Scribe" src="hero.webp?raw=true" />
+  <img alt="Git Scribe illustration" title="Git Scribe" src="https://github.com/olistic/git-scribe/blob/ac313fb95fac78f1371159e37a7691d89ae40505/hero.webp?raw=true" />
+</div>
+
+<br />
+
+<div align="center">
+  <strong>Your AI copilot for crafting insightful Git commit messages</strong>
 </div>
 
 <br />
@@ -14,23 +20,18 @@
 
 <br />
 
-Git Scribe is your AI copilot for crafting insightful Git commit messages, streamlining your development process by translating code diffs into concise narratives.
+Git Scribe streamlines your development process by translating code diffs into concise narratives ✍️
 
-## How it works
+Whenever you need inspiration, simply execute `git commit` without passing a message and Git Scribe will suggest one for you ✨
 
-Git Scribe adds a [`prepare-commit-msg`](https://git-scm.com/docs/githooks#_prepare_commit_msg) hook to your Git repository upon [installation](#installation).
+## Getting Started
 
-Whenever you need inspiration, simply execute `git commit` without passing a message and Git Scribe will give you a suggestion.
+Follow these steps to add Git Scribe to your repository:
 
-> [!IMPORTANT]
-> Git Scribe uses OpenAI API behind the scenes. If you have any concerns, you can review OpenAI's API data privacy policies [here](https://openai.com/api-data-privacy).
-
-## Installation
-
-1. Install [husky](https://typicode.github.io/husky) and `git-scribe`:
+1. Install `git-scribe` and [`husky`](https://typicode.github.io/husky):
 
 ```sh
-$ npm install --save-dev husky git-scribe
+$ npm install --save-dev git-scribe husky
 ```
 
 2. Enable Git hooks:
@@ -39,8 +40,13 @@ $ npm install --save-dev husky git-scribe
 $ npx husky install
 ```
 
-3. Add a `prepare-commit-msg` hook:
+3. Add the [`prepare-commit-msg`](https://git-scm.com/docs/githooks#_prepare_commit_msg) hook:
 
 ```sh
 $ npx husky add .husky/prepare-commit-msg 'git-scribe "$1" "$2"'
 ```
+
+That's it!
+
+> [!IMPORTANT]
+> Git Scribe uses OpenAI API behind the scenes. If you have any concerns, you can review OpenAI's API data privacy policies [here](https://openai.com/api-data-privacy).
