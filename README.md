@@ -22,7 +22,7 @@
 
 Git Scribe streamlines your development process by translating code diffs into concise narratives ✍️
 
-Whenever you need inspiration, simply execute `git commit` without passing a message and Git Scribe will suggest one for you ✨
+Whenever you need inspiration, execute `git commit` and Git Scribe will suggest a message for you ✨
 
 ## Getting Started
 
@@ -46,7 +46,8 @@ $ npx husky install
 $ npx husky add .husky/prepare-commit-msg 'git-scribe "$1" "$2"'
 ```
 
-That's it!
+Profit!
 
-> [!IMPORTANT]
-> Git Scribe uses OpenAI API behind the scenes. If you have any concerns, you can review OpenAI's API data privacy policies [here](https://openai.com/api-data-privacy).
+## Data Privacy
+
+Git Scribe uses OpenAI API behind the scenes. If you have any concerns, you can review OpenAI's API data privacy policies [here](https://openai.com/api-data-privacy).
