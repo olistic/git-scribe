@@ -13,6 +13,12 @@
 <br />
 
 <div align="center">
+  <a href="https://github.com/olistic/git-scribe/actions/workflows/ci.yaml">
+    <img alt="GitHub CI Workflow" src="https://img.shields.io/github/actions/workflow/status/olistic/git-scribe/ci.yaml?style=flat-square&color=%23a371f7">
+  </a>
+  <a href="https://app.codecov.io/gh/olistic/git-scribe">
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/github/olistic/git-scribe?style=flat-square&color=%23a371f7">
+  </a>
   <a href="https://www.npmjs.com/package/git-scribe">
     <img alt="npm" src="https://img.shields.io/npm/v/git-scribe?style=flat-square&color=%23a371f7">
   </a>
